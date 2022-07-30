@@ -26,5 +26,6 @@ pub mod staking {
 
 #[derive(Accounts)]
 pub struct Stake<'info> {
+    // test
     pub token_program:Program<'info, Token>,
 }
